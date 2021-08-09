@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 12rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  margin: 100px 0;
+}
+
+.profile > div {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.profile > .maleImg,
+.profile > .femaleImg {
+  width: 9rem;
+  height: 9rem;
+  position: relative;
+}
+
+.profile > div > h3 {
+  font-family: "Poppins", sans-serif;
+  height: fit-content;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #003399;
+  position: relative;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 12rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+}
+
+#profile > div {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#profile > .maleImg,
+#profile > .femaleImg {
+  width: 9rem;
+  height: 9rem;
+  position: relative;
+}
+
+#profile > div > h3 {
+  font-family: "Poppins", sans-serif;
+  height: fit-content;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #003399;
+  position: relative;
+}
+
+#profile > div > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  position: relative;
+}
+.profile > div > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  position: relative;
+}

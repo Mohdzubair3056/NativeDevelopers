@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@300&family=Poppins:wght@100&display=swap");
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 17rem;
+  height: 15rem;
+  box-shadow: 0 0 14px rgba(19, 19, 19, 0.3), 0 2px 5px rgba(19, 19, 19, 0.22);
+  border-radius: 10px;
+  padding: 30px 20px 10px 20px;
+  justify-content: center;
+  background-color: rgb(254, 254, 254);
+  border: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: none;
+  transform: scale(0.99);
+}
+
+.card .body {
+  color: #161616;
+}
+
+.card .body > h3 {
+  font-family: "Georama", sans-serif;
+  font-weight: 1000;
+  color: #003399;
+  padding: 10px 0;
+}
+
+.card .body > .desc {
+  font-family: "Poppins", sans-serif;
+}
+
+.card .body .arrow {
+  font-size: 32px;
+}
+
+.card > img {
+  width: 5rem;
+}

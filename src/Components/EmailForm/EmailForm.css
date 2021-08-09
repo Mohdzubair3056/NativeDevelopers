@@ -1,0 +1,69 @@
+.emailForm {
+  display: flex;
+  height: 57vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.emailForm .emailFormTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.emailForm .emailFormTop h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  max-width: 80%;
+  padding-bottom: 15px;
+}
+
+.emailForm .emailFormTop p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  max-width: 60%;
+}
+
+.emailForm .emailFormBottom {
+  width: 40%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.emailForm .emailFormBottom .email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 40px;
+}
+
+.emailForm .emailFormBottom .email input[type="email"] {
+  border-width: 0;
+  flex: 1;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.05rem;
+  outline: none;
+}
+
+.emailForm .emailFormBottom .email .button {
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 50px;
+  background-color: #f16202;
+  color: #f6f6f6;
+  font-weight: 1000;
+  border: 2px solid transparent;
+  transition: 0.2s ease-in-out;
+}
+
+.emailForm .emailFormBottom .email .button:hover {
+  border-color: #f16202;
+  background-color: transparent;
+  color: #f16202;
+}

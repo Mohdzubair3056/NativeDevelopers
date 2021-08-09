@@ -1,0 +1,44 @@
+.services {
+  position: relative;
+  height: fit-content;
+  padding: 100px 0px;
+}
+
+.services .blobSVG {
+  width: 70vw;
+  position: absolute;
+  right: 0%;
+  top: 0;
+  z-index: -1;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+.services .services_body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 80px;
+}
+
+.container h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  border-bottom: 5px solid #f16202;
+}
+
+.containerSpe {
+  justify-content: space-evenly;
+}
+
+.container .card {
+  margin: 20px 0;
+}

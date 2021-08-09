@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+}
+
+.homeContainer {
+  height: 90vh;
+  background: linear-gradient(0deg, #f8dac6, #ffffff);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.left_container {
+  max-width: 50vw;
+  padding: 5rem;
+}
+
+.left_container > h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  max-width: 90%;
+}
+
+.left_container > p {
+  font-family: "Poppins", sans-serif;
+  word-spacing: 5px;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.left_container .button {
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-color: #f16202;
+  color: #f6f6f6;
+  font-weight: 1000;
+  margin-top: 50rem;
+  border: 2px solid transparent;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  border-color: #f16202;
+  background-color: transparent;
+  color: #f16202;
+}
+
+.right_container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom {
+  position: absolute;
+  bottom: -85px;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15px 0;
+}
+
+.bottom_headerContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 5px #f8c6a5, 0 5px 25px #f8c6a5;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.bottom_headerContainer > img {
+  width: 10rem;
+}

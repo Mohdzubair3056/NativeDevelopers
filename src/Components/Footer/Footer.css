@@ -1,0 +1,101 @@
+.footer {
+  height: 35vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #fad4bb;
+  padding: 40px;
+}
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+}
+
+.footerLeft .heyLead {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.footerLeft .heyLead h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  max-width: 90%;
+}
+
+.footerLeft .heyLead h1 span {
+  color: #f16202;
+}
+
+.footerLeft .heyLead p {
+  font-family: "Poppins", sans-serif;
+  word-spacing: 5px;
+  font-size: 17px;
+  margin-bottom: 2rem;
+}
+
+.footerLeft .heyLead .boxHor {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerLeft .heyLead .boxHor img {
+  width: 40px;
+  border: 2px solid #f16202;
+  margin-right: 10px;
+  border-radius: 90px;
+}
+
+.footer .footerRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+.footerRight .footerContact > h2,
+.footerRight .footerAbout > h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  max-width: 90%;
+}
+
+.footerRight .footerContact > p,
+.footerRight .footerAbout > p {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.footer .footerRight .footerAbout,
+.footer .footerRight .footerContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.footerContact .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footerContact .box img {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.footer .footerRight .footerAbout .aboutLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  text-decoration: none;
+  color: #161616;
+}
